@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body id="FondoBack" >
+    
+    <style>
+        #receipt{ 
+            font-family: Courier, "Lucida Console", monospace 
+        }
+        #FondoBack{
+            background-color: rgb(160, 245, 195);
+        }
+        #FondoCenter{
+            background-color: rgb(145, 250, 75);
+            position: static;
+            width: 40%;
+            position: relative;
+            
+            
+        }
+       input:hover[type="submit"]{
+        background: rgb(255, 68, 214);
+       }
+        
+       
+    </style>
+    <Center id="receipt" style="min-height: 100vh;">
+        
+    <h1 style="background-color: rgb(145, 250, 75); width: 30%;">Primer Formulario</h1>
+    <form id="FondoCenter" action="" method="get">
+        <label for="nombre">Nombre(s):<br></label>
+        <input type="text" name="nombre" maxlength="50" placeholder="Ingresa tu nombre"><br>
+        <label for="Apellidos">Apellidos:<br></label>
+        <input type="text" name="Apellidos" maxlength="50" placeholder="Ingresa tus apellidos"><br>
+       <label for="Sexo">Sexo:</label>
+        <input type="radio" name="genero" value="Masculino">Maculino 
+        <input type="radio" name="genero" value="Femenino">Femenino <br>
+        Fecha De Nacimiento:&nbsp;<input type="date"><br>
+        Poblaci&oacute;n:&nbsp;<select name="Estados Opciones">
+            <option value="Opcion1">Orizaba</option>
+            <option value="Opcion1">Cordoba</option>
+            <option value="Opcion1">Xalapa</option>
+            <option value="Opcion1">Veracruz</option>
+        </select><br>
+        <label><input type="checkbox" checked>Deseo recibir informaci&oacute;n sobre novedades y ofertas</label><br>
+        <label><input type="checkbox">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <label><input type="checkbox">Deseo recibir informaci&oacute;n</label><br><br>
+        <input type="submit"  style="border-radius: 12px;"><br>
+
+
+
+
+
+    </form>
+    </Center>
+<footer style="background-color: blue; position: absolute;">Rey David</footer>
+</body>
+</html>
